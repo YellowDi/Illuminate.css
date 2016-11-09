@@ -1,0 +1,37 @@
+{
+  "name": "Illuminate.css",
+  "version": "0.0.1",
+  "description": "A tiny modern CSS reset",
+  "main": "Illuminate.css",
+  "scripts": {
+    "build": "npm run build-sass && npm run build-min-sass",
+    "build-sass": "node-sass --output-style expanded Illuminate.sass Illuminate.css",
+    "build-min-sass": "node-sass --output-style compressed Illuminate.sass minireset.min.css",
+    "docs": "node-sass --output-style compressed docs/docs.sass docs/docs.css",
+    "start": "npm run docs -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YellowDi/Illuminate.css.git"
+  },
+  "keywords": [
+    "css",
+    "sass",
+    "reset",
+    "mini"
+  ],
+  "author": "YellowDi <yellowdi@me.com> (http://yellowdi.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YellowDi/Illuminate.css/issues"
+  },
+  "homepage": "https://github.com/YellowDi/Illuminate.css#readme",
+  "devDependencies": {
+    "node-sass": "^3.9.3"
+  },
+  "files": [
+    "Illuminate.css",
+    "Illuminate.min.css",
+    "Illuminate.sass"
+  ]
+}
