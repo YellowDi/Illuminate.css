@@ -11,4 +11,4 @@ A tiny modern CSS reset that covers the basics:
 
 ## Copyright and license
 
-Code copyright 2016 YellowDi. Code released under [the MIT license](https://github.com/YellowDi/Illuminate.css/blob/master/LICENSE).
+Code copyright 2017 YellowDi. Code released under [the MIT license](https://github.com/YellowDi/Illuminate.css/blob/master/LICENSE).
