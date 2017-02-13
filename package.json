@@ -1,12 +1,12 @@
 {
   "name": "Illuminate.css",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A tiny modern CSS reset",
   "main": "Illuminate.css",
   "scripts": {
     "build": "npm run build-sass && npm run build-min-sass",
     "build-sass": "node-sass --output-style expanded Illuminate.sass Illuminate.css",
-    "build-min-sass": "node-sass --output-style compressed Illuminate.sass minireset.min.css",
+    "build-min-sass": "node-sass --output-style compressed Illuminate.sass Illuminate.min.css",
     "docs": "node-sass --output-style compressed docs/docs.sass docs/docs.css",
     "start": "npm run docs -- --watch"
   },
