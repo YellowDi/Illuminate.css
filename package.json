@@ -1,6 +1,6 @@
 {
   "name": "Illuminate.css",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A tiny modern CSS reset",
   "main": "Illuminate.css",
   "scripts": {
